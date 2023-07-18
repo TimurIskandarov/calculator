@@ -50,7 +50,7 @@ func main() {
 			log.Fatal(OPERATOR_LIMIT_ERROR)
 		}
 
-		if operands[1] == "" {
+		if operands[0] == "" || operands[1] == "" {
 			log.Fatal(OPERATION_ERROR)
 		}
 
